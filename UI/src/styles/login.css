@@ -1,0 +1,16 @@
+.loginForm {
+    max-width: 25%;
+    border: 1px solid lightgrey;
+    border-radius: 7px;
+    padding: 2%;
+    margin: auto;
+    margin-top: 2%;
+}
+
+.login-form-forgot {
+    float: right;
+}
+
+.login-form-button {
+    width: 100%;
+}

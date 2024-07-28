@@ -1,0 +1,52 @@
+{
+  "name": "marketing-automation-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon src/server.js",
+    "build": "node build.js",
+    "debug": "nodemon --inspect src/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.7",
+    "bcrypt": "^5.1.1",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "dotenv": "^16.4.4",
+    "express": "^4.18.2",
+    "express-ejs-layouts": "^2.5.1",
+    "express-jwt": "^8.4.1",
+    "express-session": "^1.18.0",
+    "facebook-js-sdk": "^0.3.4",
+    "fb": "^2.0.0",
+    "fbgraph": "^1.4.4",
+    "form-data": "^4.0.0",
+    "fs": "^0.0.1-security",
+    "helmet": "^7.1.0",
+    "joi": "^17.12.1",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.1.2",
+    "multer": "^1.4.5-lts.1",
+    "netlify-cli": "^17.18.0",
+    "netlify-lambda": "^2.0.16",
+    "nodemon": "^3.0.3",
+    "oauth-1.0a": "^2.2.6",
+    "passport": "^0.7.0",
+    "passport-google-oauth20": "^2.0.0",
+    "path": "^0.12.7",
+    "request": "^2.88.2",
+    "serverless-http": "^3.2.0",
+    "twitter-api-v2": "^1.16.0",
+    "url": "^0.11.3"
+  },
+  "devDependencies": {
+    "@types/fb": "^0.0.28"
+  }
+}

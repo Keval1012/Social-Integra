@@ -1,0 +1,117 @@
+.dashboardTab .ant-tabs-tab-btn {
+    font-size: var(--secondary-font);
+}
+.dashboardTab .ant-tabs-ink-bar {
+    width: 0 !important;
+}
+.periodDropdownForm .ant-form-item {
+    margin-bottom: 0 !important;
+}
+.tabBodyTopMargin {
+    margin-top: 4%;
+}
+
+.emptyDataComp {
+    margin-top: 10%;
+}
+
+.addAccountBtn {
+    min-width: 10%;
+}
+
+.dateFont {
+    font-size: var(--third-font);
+}
+.smallCard {
+    width: 95%;
+    height: 17rem;
+}
+.engageRateCard {
+    width: 95%;
+    height: 13rem;
+    border-radius: 10px;
+}
+.ageRangeCard {
+    border-radius: 10px;
+}
+.ageCard canvas {
+    height: 135px !important;
+    width: 289px !important;
+}
+.canvasChart {
+    display: flex;
+    justify-content: center;
+}
+.mediumCard {
+    width: 95%;
+    height: 13rem;
+    border-radius: 10px;
+}
+.mediumCard4 {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.ageRangeWidth {
+    width: 100%;
+}
+
+.marginCardAuto {
+    margin-right: auto;
+}
+.marginCardTop {
+    margin-top: 1.2%;
+}
+
+.centerCard {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    right: 50%;
+}
+
+.divLine {
+    border-right: 1px solid rgb(231, 235, 239);
+    cursor: pointer;
+    padding: 8% 0 8% 0;
+    -webkit-box-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto 0;
+}
+
+.cardStyle {
+    border-radius: 10px;
+    width: 95%;
+}
+.cardIcon {
+    font-size: var(--tritary-font);
+}
+.countFont {
+    font-size: 30px;
+}
+.percentRate {
+    font-size: var(--tritary-font);
+}
+.countNumberStyle {
+    position: absolute;
+    top: auto;
+    bottom: 0;
+}
+.increasePercent {
+    color: green;
+}
+
+.iconRight {
+    margin-left: 3%;
+    min-height: 2em;
+}
+
+.locationStyle {
+    width: 100%;
+}

@@ -1,0 +1,125 @@
+.card {
+    border-radius: 5px;
+    /* margin-top: 1%; */
+}
+.cardPost {
+    width: 14rem;
+    border-radius: 5px;
+}
+
+.addPostBtn {
+    min-width: 10%;
+}
+
+.addPostModalStyle .ant-modal-close {
+    top: auto;
+    display: flex;
+    align-items: end;
+}
+.ant-modal .ant-modal-close:hover {
+    color: rgba(0, 0, 0, 0.45) !important;
+    background-color: white !important;
+}
+.addPostModalStyle .ant-modal-title {
+    font-size: var(--primary-font);
+}
+
+.selectAccounts {
+    width: 10rem !important;
+}
+.uploadPostBtn:hover {
+    background-color: var(--primary-color) !important;
+    border-color: var(--primary-color) !important;
+
+}
+
+.slider{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    transform: translateX(-10px) translateY(0px);
+}
+.adjustmentButton{
+    border: none;
+    background: transparent;
+    padding: 1% 3%;
+    cursor: pointer;
+}
+.adjustmentButton:hover {
+    color: black !important;
+}
+.adjustmentButton.active {
+    background-color: #eaecef;
+    color: black; 
+    border-radius: 15px;
+    width: auto;
+}
+.Finetune {
+    border: 1px solid lightgray;
+    font-size: 18px;
+    position: absolute;
+    right: 15%;
+    padding: 0.4% 0.5%;
+    border-radius: 7px;
+    cursor: pointer;
+}
+.Finetune.active {
+    background-color: #eaecef;
+    color: black;
+}
+.logo {
+    color: gray;
+    padding-left: 29%;
+    font-size: 20px;
+
+}
+.slider-value {
+    display: flex;
+    justify-content: space-between;
+}
+.adjustment {
+    font-size: 9px;
+    padding-left: 2%;
+}
+.showAdjustment {
+    flex-direction: row;
+    width: 68%;
+    padding-left: 33%;
+}
+.num-left {
+    padding-left: 1%;
+}
+.num-right {
+    padding-right: 1%;
+}
+
+.done{
+    left: 76%;
+    width: 10%;
+}
+
+.upload-post {
+    border-radius: 5px;
+    margin-top: 1%;
+}
+
+.image-gallery {
+    display: flex;
+    flex-wrap: wrap;
+}
+.image-wrapper {
+    width: 25vw;
+}
+.image-style {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.upload-post .minWidthLabel .ant-form-item-label {
+    min-width: 30% !important;
+    text-align: left !important;
+}
+.upload-post .ant-form-item-label label {
+    font-size: 14px !important;
+}

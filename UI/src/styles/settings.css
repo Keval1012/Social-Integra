@@ -1,0 +1,106 @@
+.card-setting{
+    border-radius: 6px;
+    box-shadow: 0 1px 2px rgba(34,38,42,.15);
+    padding: 1%;
+    box-sizing: border-box;
+    margin-bottom: 8px;
+}
+.card-account{
+    width: 14%;
+    box-shadow: 0 1px 2px rgba(34,38,42,.15);
+    border-radius: 6px;
+    box-sizing: border-box;
+    margin-right: 8px;
+}
+.card-account .ant-card-body {
+    padding-bottom: 2px !important;
+}
+.minPadding .ant-card-body {
+    padding: 2px 16px !important;
+}
+.logo-account{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin-bottom: 5px;
+}
+.instagram{
+    font-size: 22px;
+}
+.plus-account{
+    background: red;
+    color: aliceblue;
+    border-radius: 3px;
+    font-size: 22px;
+    cursor: pointer;
+}
+.fbAddAccountIcon {
+    border: none;
+    padding: 0;
+    background-color: red;
+    border-radius: 3px;
+    color: white;
+    cursor: pointer;
+}
+.account{
+    display: flex;
+}
+.input .ant-input{
+    border: 1px solid lightgray;
+    font-size: var(--third-fontt);
+    font-weight: var(--secondary-fontWeight);
+    border-radius: 14px;
+}
+.input {
+    height: 2.2rem;
+    padding-top: 1%;
+    font-size: var(--third-font);
+    font-weight: var(--secondary-fontWeight);
+    border-radius: 10px;
+}
+.change-password{
+    font-size: 14px;
+    font-weight: 800;
+    color: var(--primary-color);
+    cursor: pointer;
+}   
+.pop-over{
+    padding-bottom: 33%;
+}
+.pop-btn{
+    width: 100%;
+    border-radius: 5px;
+    height: 1rem;
+}
+.gen-info{
+    font-size: 16px;
+}
+.image-btn{
+    /* width: 50%; */
+    border-radius: 10px;
+}
+.Business{
+    color: orange;
+    font-size: 14px;
+    font-weight: 600;
+    margin: 1% 0;
+}
+.pop-account{
+    font-size: 14px;
+    font-weight: 700;
+}
+.restSpan {
+    margin-left: 70%;
+    cursor: pointer;
+    color: red;
+}
+.img-upload{
+    text-align: center;
+}
+.upload-an-image{
+    border: 0;
+    background: none;
+}
+.plus{
+    margin-top: 8px;
+}
